@@ -3,6 +3,7 @@
 }
 
 body {
+  background-image: url('./../img/Gold_foil_background.jpg');
   background-color: #55885A;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -141,11 +142,13 @@ button.contact-send-button:hover {
 }
 
 .contact-form {
+  background-color: #55885A;
   color: white;
   font-family: 'Roboto', sans-serif;
 }
 
 .contact-me {
+  background-color: #55885A;
   color: white;
 }
 
@@ -239,6 +242,7 @@ button.contact-send-button:hover {
 }
 
 .nav-bar {
+  background-color: #55885A;
   display: flex;
   flex-direction: column;
   line-height: 1.5em;
