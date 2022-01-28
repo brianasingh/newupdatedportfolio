@@ -10,7 +10,6 @@ body {
   line-height: 0.5;
 }
 
-
 /* --------GRID WORK ---------*/
 @media all and (max-width: 500px) {
   .grid {
@@ -51,6 +50,7 @@ body {
 .grid-item-text p {
   font-size: 12px;
 }
+
 /*-----------TRANSITION WORK----------- */
 a {
   transition-property: font-size;
@@ -103,6 +103,7 @@ a:active {
   top: 0;
   left: 0;
 }
+
 /* -----------BUTTONS-----------*/
 button.contact-send-button {
   background: #E3D39C;
@@ -122,8 +123,22 @@ button.button {
   font-size: 36px;
 }
 
-button.button {
+/*button.button {
   background: #E3D39C;
+  color: white;
+  font-family: Sans-serif;
+  font-size: 20px;
+  height: 40px;
+  width: 100px;
+  margin: 20px;
+  text-align: center;
+  border: 0;
+  transition: all 0.3s ease 0s;
+  transition-property: font-size;
+  transition-duration: 1s;
+}*/
+.download_cv_link {
+  background-color: #55885A;
   color: white;
   font-family: Sans-serif;
   font-size: 20px;
@@ -163,11 +178,13 @@ button.contact-send-button:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
 /* ---------------ANIMATIONS------------- */
 @keyframes color-change {
   from {
     fill: #edc655;
   }
+
   to {
     fill: #f76414;
   }
@@ -177,9 +194,11 @@ button.contact-send-button:hover {
   0% {
     fill: #edc655;
   }
+
   50% {
     fill: #fcffad;
   }
+
   100% {
     fill: #f76414;
   }
@@ -193,6 +212,7 @@ button.contact-send-button:hover {
   from {
     transform: translate(0, 50px);
   }
+
   to {
     transform: translate(200px, 50px);
   }
@@ -214,13 +234,16 @@ button.contact-send-button:hover {
   from {
     transform: translate(446px, 48px);
   }
+
   to {
     transform: translate(100px, 48px);
   }
 }
+
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
 /* ------------------END OF ANIMATIONS--------------------- */
 .linked-in {
   height: 30px;
